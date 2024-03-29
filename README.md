@@ -1,5 +1,5 @@
 # My-Ecommerce-Challenge
-Challenge Description: I built the back end for an e-commerce site by modifying the starter code. I configured a working Express.js API to use Sequelize to interact with a MySQL database. Because this application won’t be deployed, I'll provide a link to a walkthrough video that demonstrates the application's functionality and all of the acceptance criteria being met.
+Project Description: I built the back end for an e-commerce site by modifying the starter code. I configured a working Express.js API to use Sequelize to interact with a MySQL database. Because this application won’t be deployed, I'll provide a link to a walkthrough video that demonstrates the application's functionality and all of the acceptance criteria being met.
 
 
 ## User Story
@@ -26,3 +26,11 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
+Challenges: I was having major issues seeding the models into the database. The paths and code were correct, but it kept giving me error messages. So I used the "associate" method in each model file and they all finally seeded into the database. 
+
+
+Link to walkthrough video:
+
+Link to Github repository: https://github.com/dialaobeid/My-Ecommerce-Challenge/tree/main
+
+Screenshot of deployed application:
