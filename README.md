@@ -28,7 +28,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 Challenges:
 - I was having major issues seeding the models into the database. The paths and code were correct, but it kept giving me error messages. So I used the "associate" method instead of "async/await" method in each model file and they all finally seeded into the database. 
-- I could not access the server properly on insomnia and double-checked all my paths and code format and syntax was correct. I even tried restarting/resetting the server, and still could not access it on insomnia.
+- I could not access the server properly on insomnia and double-checked all my paths and code format and syntax was correct. I even tried restarting/resetting the server, and still could not access it on insomnia. The code for the GET, POST, PUT and DELETE requests are all correctly written in the routes file.  
 
 
 Link to walkthrough video: https://drive.google.com/file/d/1A9Gn9JRR_ZhO42B-zOF5fFxZCjtpgLEn/view
