@@ -1,5 +1,5 @@
 # My-Ecommerce-Challenge
-Project Description: I built the back end for an e-commerce site by modifying the starter code. I configured a working Express.js API to use Sequelize to interact with a MySQL database. Because this application won’t be deployed, I'll provide a link to a walkthrough video that demonstrates the application's functionality and all of the acceptance criteria being met.
+Project Description: I built the back end for an e-commerce site by modifying the starter code. I configured a working Express.js API to use Sequelize to interact with a MySQL database. Because this application won’t be deployed, I'll provide a link to a walkthrough video that demonstrates the application's functionality below.
 
 
 ## User Story
@@ -26,11 +26,13 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-Challenges: I was having major issues seeding the models into the database. The paths and code were correct, but it kept giving me error messages. So I used the "associate" method in each model file and they all finally seeded into the database. 
+Challenges:
+- I was having major issues seeding the models into the database. The paths and code were correct, but it kept giving me error messages. So I used the "associate" method instead of "async/await" method in each model file and they all finally seeded into the database. 
+- I could not access the server properly on insomnia and double-checked all my paths and code format and syntax was correct. I even tried restarting/resetting the server, and still could not access it on insomnia.
 
 
-Link to walkthrough video:
+Link to walkthrough video: https://drive.google.com/file/d/1A9Gn9JRR_ZhO42B-zOF5fFxZCjtpgLEn/view
 
 Link to Github repository: https://github.com/dialaobeid/My-Ecommerce-Challenge/tree/main
 
-Screenshot of deployed application:
+Screenshot of deployed application: [!Alt](/images/Screenshot%201%20-%20Mod%2013.png) [!Alt](/images/Screenshot%202%20-%20Mod%2013.png)
